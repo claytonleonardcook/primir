@@ -1,7 +1,7 @@
 #!/usr/bin/env sh
 . "$(dirname -- "$0")/_/husky.sh"
 
-echo '🏗️👷 Styling, testing and building BJE-Mobile before committing'
+echo '🏗️👷 Styling, testing and building Primir before committing'
 
 yarn format
 

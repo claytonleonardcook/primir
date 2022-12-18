@@ -12,9 +12,9 @@
     "lint": "eslint .",
     "format": "prettier --write .",
     "prepare": "husky install",
-	 "check-types": "tsc --pretty --noEmit",
+    "check-types": "tsc --pretty --noEmit",
     "check-format": "prettier --check .",
-    "check-lint": "eslint . --ext ts --ext tsx --ext js" 
+    "check-lint": "eslint . --ext ts --ext tsx --ext js"
   },
   "devDependencies": {
     "@sveltejs/adapter-auto": "^1.0.0",
