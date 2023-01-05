@@ -18,10 +18,25 @@
 					 color: #000;
 					 transition-duration: 0.5s;
 					 cursor: pointer;
+					 scale: 1;
 		  }
 
-		  button:hover {
-					 background-color: #000;
-					 color: #FFF;
+		  button:focus {
+					 -webkit-animation: click 0.5s;
+					 animation: click 0.5s;
+		  }
+
+		  button:active {
+					 -webkit-animation: none;
+					 animation: none;
+		  }
+
+		  @keyframes click {
+					16% {
+					 scale: 1.1;
+					}
+					50% {
+					 scale: 1;
+					}
 		  }
 </style>
