@@ -10,6 +10,7 @@
 		  button {
 					 all: unset;
 					 height: 1em;
+					 width: -moz-fit-content;
 					 width: fit-content;
 					 padding: 0.5rem;
 					 border: solid #000 1px;
@@ -18,7 +19,7 @@
 					 color: #000;
 					 transition-duration: 0.5s;
 					 cursor: pointer;
-					 scale: 1;
+					 transform: scale(1);
 		  }
 
 		  button:focus {
@@ -33,10 +34,10 @@
 
 		  @keyframes click {
 					16% {
-					 scale: 1.1;
+					 transform: scale(1.1);
 					}
 					50% {
-					 scale: 1;
+					 transform: scale(1);
 					}
 		  }
 </style>
